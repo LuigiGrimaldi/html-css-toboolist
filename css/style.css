@@ -1,8 +1,10 @@
 body{
+    background-color: #f6f8f9;
+}
+
+*{
     margin: 0;
     padding: 0;
-    background-color: #f6f8f9;
-
 }
 
 .inline-block{
@@ -20,12 +22,31 @@ body{
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
+}
 
+.blue_button{
+    color: white;
+    background-color: #47adf1;
+    border-color: #47adf1;
+    padding: 5px;
+}
 
+.white_button{
+    color: #cfd4d8;
+    background-color: white;
+    border-color: #cfd4d8;
+    padding: 5px;
 }
 
 button{
-    padding-top: 2rem; 
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+
+hr{
+    color: #f6f8f9;;
 }
 
 #site-header{
